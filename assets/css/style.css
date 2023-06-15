@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@500&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wght@500&family=Roboto:wght@100;500&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -37,14 +37,14 @@ h1 span{
 
 main article{
     display: flex;
-    justify-content: center;
-    /* flex-direction: column; */
+    align-items: center;
+    margin: 4.5vh;
 }
 
 article img{
     background-size: contain;
-    width: 60vw;
-    height: 60vw;
+    width: 100%;
+    height: auto;
 }
 
 article{
@@ -54,11 +54,69 @@ article{
     border: 1px solid black;
 }
 
-/* CENTRER LES ARTICLES */
+.txtContain{
+    margin: 0 3vh;
+}
 
+.txtContain p{
+    font-weight: 100;
+    padding: 0 0 2vh 0;
+}
+.txtContain h2{
+    font-weight: bold;
+    padding: 1vh 0;
+}
 
+.footCard{
+    background-color: #EBEBF7;
+    width: 100%;
+    padding: 1vh;
+}
+
+article i{
+    padding: 3%;
+}
+
+.titleArticle{
+    display: flex;
+    justify-content: space-around; 
+    /* flex-direction: row; */
+}
+
+.arrow{
+    background-color: #7C808C;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 2vh;
+
+}
+
+.arrow i {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #FF7575;
+    color: white;
+    font-weight: 100;
+    padding: 4vh;
+}
 
 
 .buttonNone{
+    display: none;
+}
+
+.none{
     display: none;
 }
