@@ -117,6 +117,34 @@ footer{
     display: none;
 }
 
+@media screen and (min-width: 768px) {
+    .titleAndSlogan{
+        display: flex;
+        flex-direction: row;
+    }
+    h1 {
+        padding: 2vh;
+    }
+    .headerSlogan{
+        text-align: left;
+    }
+    article {
+        display: flex;
+        flex-direction: row;
+    }
+    article img {
+        background-size: cover;
+        height: 40vw;
+        width: 40vw;
+    }
+    .test{
+        height: 40vw;
+    }
+}
+
+
+
+
 .none{
     display: none;
 }
